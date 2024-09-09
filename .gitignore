@@ -163,3 +163,7 @@ cython_debug/
 
 # ignore other system file
 .DS_Store
+
+# ignore all the fits file 
+*.fits
+#*.list
