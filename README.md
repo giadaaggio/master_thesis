@@ -1,5 +1,5 @@
 # Variations of the Fraction of Binaries outside the Main Sequence
-This repository contains a collection of Python tools developed during my master's thesis in astrophysics and cosmology. The primary focus of these tools is the analysis of star clusters, with an emphasis on the impact of binary fractions. These scripts are designed to be quite flexible, customizable, and applicable to various star clusters.
+This repository contains a collection of Python tools developed during my master's thesis in astrophysics and cosmology. The primary focus of these tools is the analysis of star clusters and building synthetic binary systems to extend the analysis of the fraction of binaries to unexplored regions of the CMD. These scripts are designed to be quite flexible, customizable, and applicable to various star clusters.
 
 The tools I developed are: 
 
