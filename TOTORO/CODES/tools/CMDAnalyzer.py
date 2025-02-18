@@ -1,17 +1,20 @@
-import matplotlib.pyplot as plt
-from matplotlib.widgets import Button, PolygonSelector
-from matplotlib.path import Path
-import numpy as np
-import pandas as pd
-import csv
+'''
+======================================================
+                    CMD ANALYZER
+======================================================
 
-import pandas as pd
-import numpy as np
-import csv
-from matplotlib.path import Path
-from matplotlib.widgets import Button
-from matplotlib.widgets import PolygonSelector
-import matplotlib.pyplot as plt
+This module contains classes to interactively select regions and fiducial lines in a Color-Magnitude Diagram (CMD) plot.
+The main classes and functions are:
+    - CMDRegionSelector: Class to select regions in a CMD plot.
+    - CMDFiducialSelector: Class to select fiducial lines in a CMD plot.
+
+The CMDRegionSelector class allows the user to interactively select regions in a CMD plot using a PolygonSelector tool.
+The selected regions can be saved to a CSV file, and the number of stars in each region can be counted.
+
+The CMDFiducialSelector class allows the user to interactively select fiducial lines in a CMD plot by clicking on the plot.
+The selected fiducial line points can be saved to a CSV file for further analysis.
+
+'''
 
 class CMDRegionSelector:
     def __init__(self, data, color, magnitude, color_bound_bin_high=None, magnitude_bound_bin_high=None, color_bound_bin_low=None, magnitude_bound_bin_low=None, x_label=None, y_label=None, output_file="selected_regions.csv"):
